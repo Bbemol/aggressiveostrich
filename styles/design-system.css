@@ -18,7 +18,7 @@
   --color-overlay: rgba(0, 0, 0, 0.58);
 
   /* Background image (replace URL easily) */
-  --bg-image: url("https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1800&q=80");
+  --bg-image: url("../img/background.jpg");
 
   /* Typography */
   --font-size-xs: 0.75rem;
@@ -55,7 +55,7 @@
 
 @font-face {
   font-family: "Made Outer";
-  src: url("../assets/fonts/MADEOuterSansPERSONALUSE-Regular.otf") format("opentype");
+  src: url("../assets/fonts/MADE Outer Sans Black.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -63,8 +63,8 @@
 
 @font-face {
   font-family: "Motterdam";
-  src: url("../assets/fonts/Motterdam-K74zp.otf") format("opentype");
-  font-weight: 400;
+  src: url("../assets/fonts/Motterdam.otf") format("opentype");
+  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }

@@ -37,9 +37,14 @@ body {
 
 .profile__name {
   margin: var(--space-4) 0 var(--space-2);
-  font-family: var(--font-family-display);
+  font-family: var(--font-family-base);
   font-size: clamp(1.4rem, 1.2rem + 1vw, 2rem);
   letter-spacing: 0.05em;
+}
+
+.profile__display {
+  font-family: var(--font-family-display);
+  font-weight: 100;
 }
 
 .profile__tagline {

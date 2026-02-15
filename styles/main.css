@@ -37,6 +37,7 @@ body {
 
 .profile__name {
   margin: var(--space-4) 0 var(--space-2);
+  font-family: var(--font-family-display);
   font-size: clamp(1.4rem, 1.2rem + 1vw, 2rem);
   letter-spacing: 0.05em;
 }
@@ -84,11 +85,6 @@ body {
 }
 
 .link-card {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-2);
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
   background: color-mix(in srgb, var(--color-surface), transparent 8%);
@@ -103,6 +99,7 @@ body {
   gap: var(--space-4);
   text-decoration: none;
   color: inherit;
+  padding: var(--space-2);
   min-width: 0;
 }
 
@@ -118,31 +115,6 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.link-card__share {
-  height: 2.4rem;
-  width: 2.4rem;
-  border-radius: var(--radius-pill);
-  border: 1px solid var(--color-border);
-  background: var(--color-surface-elevated);
-  color: var(--color-text);
-  cursor: pointer;
-}
-
-.link-card__share > span {
-  position: relative;
-  display: inline-block;
-  width: 0.25rem;
-  height: 0.25rem;
-  border-radius: var(--radius-pill);
-  background: currentcolor;
-  box-shadow: 0 -0.38rem 0 currentcolor, 0 0.38rem 0 currentcolor;
-}
-
-.link-card__share:hover,
-.link-card__share:focus-visible {
-  background: #262626;
 }
 
 @media (max-width: 520px) {

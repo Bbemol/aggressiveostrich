@@ -17,6 +17,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.music-title {
+  text-align: center;
+  margin-top: 4rem;
+}
+
 .page {
   width: min(100% - 2rem, var(--content-max-width));
   margin-inline: auto;
@@ -111,12 +116,27 @@ body {
   padding: var(--space-2);
   min-width: 0;
 }
+.link-card__main--center {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  align-items: center;
+  gap: var(--space-4);
+  text-decoration: none;
+  color: inherit;
+  padding: var(--space-2);
+  min-width: 0;
+}
 
 .link-card__thumb {
   width: 3.3rem;
   height: 3.3rem;
   border-radius: var(--radius-md);
-  object-fit: cover;
+}
+.link-card__thumb--noFit {
+  width: 4rem;
+  height: 3.3rem;
+  border-radius: var(--radius-md);
+  object-fit: contain;
 }
 
 .link-card__text {

@@ -17,6 +17,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.back-button {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-xxl);
+}
+.back-button a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
 .music-title {
   text-align: center;
   margin-top: 4rem;

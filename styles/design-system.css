@@ -19,7 +19,7 @@
   --color-overlay: rgba(0, 0, 0, 0.58);
 
   /* Background image (replace URL easily) */
-  --bg-image: url("../img/background.jpg");
+  --bg-image: url("../img/background.webp");
 
   /* Typography */
   --font-size-xs: 0.75rem;
